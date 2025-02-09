@@ -1,0 +1,27 @@
+body {
+    background-color: #6495ed;
+}
+p {
+    color: white;
+    font-size: 20px;
+}
+#test {
+    background-color: green;
+    color: red;}
+
+.text {
+    background-color: yellow;/*фон элемента*/
+    color: blue;
+    font-size: 30px; /*Размер текста*/
+    font-family: Bradley Hand, cursive;/*шрифт текста*/
+    font-weight: 900;/*жироность текста*/
+    width: 50%;/*50% от ширины всего экрана*/
+    height: 100px;/*высота элемента*/
+    padding; 20px/*отступы со всех сторон*/
+
+    border: 5px solid black;
+    border-width: 5px 10px 15px 20px;
+    border-style: dotted solid dashed double;
+    border-color: red green blue yellow;
+    border-radius: 10px;
+}
