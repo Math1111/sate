@@ -1,0 +1,116 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+div.box_1{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 25%;
+    position: static;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+div.box_2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 25%;
+    position: static;
+    margin-bottom:10px;
+}
+div.box_3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 25%;
+    position: static;
+    margin-bottom:10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+tr:nth-child(even) {
+    background-color: gray;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.float-left {
+    float: left;
+    margin-right: 10px;
+}
+
+p {
+    text-align: justify;
+}
+#fixed-header {
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+#fixed-header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#content {
+    margin-top: 40px;
+    padding: 20px;
+}
+div.knopka {
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    border-radius: 25%;
+    position: static;
+    margin-bottom:10px;
+    margin-top:10px;
+    }
+
+div.knopka:hover { /*hover-при наведении срабатыват*/
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    transition: 5s;
+}
+
+
+
